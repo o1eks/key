@@ -1,0 +1,8 @@
+[package]
+name = "key"
+version = "0.1.0"
+authors = ["o1eks"]
+edition = "2018"
+
+[dependencies]
+clap = { version = "3.0.0-beta.2", features = ["yaml"] }

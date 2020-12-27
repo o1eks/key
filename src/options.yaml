@@ -1,0 +1,11 @@
+name: key
+version: "0.1.0"
+author: Oleksandr Litus <oleks.litus@gmail.com>
+about: SSH for dummies
+args:
+    - generate
+        about: Generate new set of SSH keys
+        short: g
+        long: gen
+	takes_value: true
+        value_name: FILE
